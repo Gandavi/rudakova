@@ -1,0 +1,100 @@
+.container { 
+   margin:  0 auto;
+}
+.cover-container {
+   max-width: 42em;
+ }
+.car{
+   width: 400px;
+}
+.imgh {
+   height: 270px;
+}
+.imgi {
+   height: 270px;
+}
+.fon-img1{
+   background-image: url("../img/щ.jpg");
+   background-size: cover;
+}
+.fon-img1-mask{
+   background: rgba(0, 0, 0, 0.411);
+   padding-bottom: 200px;
+   padding-top: 200px;
+}
+header{
+   margin-top: 20px;
+   border-bottom: 1px solid white;
+   margin: 0 auto;
+   color: white;
+}
+.nav-link{
+   color: white;
+}
+.knopki{
+   position: fixed;
+   z-index: 10;
+   width: 100%;
+}
+.text1{
+   font-weight: 900;
+   font-size: 55px;
+   color: white;
+}
+.text2{
+   font-weight: 800;
+   font-size: 30px;
+   color: white;
+}
+.company-name{
+   color: white;
+   
+}
+
+.iksweb{display: inline-block;cursor: pointer; font-size:17px;text-decoration:none;padding:10px 17px; color:#2e0606;background:#ffffff;border-radius:35px;border:2px solid #691010;}
+                  .iksweb:hover{background:#691010;color:#ffffff;border:2px solid #2e0606;transition: all 0.8s ease;}
+.fon-img2{
+  background-image: url("../img/г.jpg");
+  background-size: cover;
+  padding-top: 100px;
+}
+.dop-for-img2{
+  transform: scale(1,2);
+  position: absolute;
+  background: linear-gradient(to top,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7),rgb(0, 0, 0),rgb(0, 0, 0),rgb(0, 0, 0), rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0));
+  height: 600px;
+  width: 100%;
+  z-index: 0;
+}
+.dop-text{
+  margin-top: 10px;
+  color: white;
+  z-index: 1;
+}
+/* .text-center{
+  float: left;
+} */
+ .size-text{
+   font-size: 30px;
+   margin-bottom: 50px;
+ }
+ .size-text2{
+     font-weight: 800;
+     font-size: 50px;
+ }
+ .menu-top{
+   width: 100%;
+ }
+ .color-text{
+   color:rgb(0, 0, 0);
+ }
+ .text-direction{
+   color: #ffffff;
+ }
+@font-face {
+   font-family: 'Bum Bum SP';
+   src: url("../Bum.ttf");
+}
+body{
+   font-family: "Bum Bum SP";
+}
