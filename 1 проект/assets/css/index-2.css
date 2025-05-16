@@ -1,0 +1,156 @@
+body{
+    background-color: rgb(100, 0, 128);
+}
+.border{
+    width: 1100px; 
+}
+.display-4{
+    font-size: 130px;
+    color: rgb(169, 113, 225);
+}
+.display-5{
+    font-size: 30px;
+    color: rgb(211, 180, 241);    
+}
+.border-1{
+    border: 30px solid #231835;
+    text-align: center;
+}
+.border-1 > img{
+    width: 100%;
+}
+.feature > h2{
+    text-align: center;
+}
+.feature{
+    color: aliceblue;
+}
+.pb-2{
+    font-size: 70px;
+    color: aliceblue;
+}
+.my-img{
+    background-image: url('../img/i 1.webp.');
+    background-size: cover; 
+}
+.Q{
+    font-size: 150px;
+    font-weight: 750;
+    color: rgb(103, 68, 139);
+}
+.lead{
+    color: #e9cbfc;
+}
+.R{
+    color: #c492e6;
+}
+.modal-content{
+    width: 5000px;
+}
+.modal{
+    width: 1700px;
+}
+.our-team{
+    border-left: 8px solid #c492e6;
+    border-bottom: 8px solid #a679ff;
+   }
+   
+   .our-team .team-image{
+    position: relative;
+    text-align: center;
+   }
+   
+   .our-team img{
+    width: 100%;
+    height: auto;
+   }
+   
+   .our-team .description{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 14px;
+    color: #fff;
+    line-height: 30px;
+    padding: 40px 50px;
+    opacity: 0;
+    background-color: rgba(60, 55, 93, 0.558);
+    transition: all 0.5s ease 0s;
+   }
+   
+   .our-team:hover .description{
+    opacity: 1;
+   }
+   
+   .our-team .social{
+    padding: 10px 0 0 0;
+    margin: 0;
+    list-style: none;
+    position: absolute;
+    top: 40px;
+    left: -27px;
+    background: #3b336a;
+    text-align: center;
+    transform: translate(25px, 0px) rotateY(90deg);
+    transition: all 0.5s ease 0s;
+   }
+   
+   .our-team:hover .social{
+    transform: translate(0px, 0px) rotateY(0deg);
+   }
+   
+   .our-team .social li{
+    display: block;
+    margin-bottom: 10px;
+   }
+   
+   .our-team .social li a{
+    display: block;
+    width: 40px;
+    height: 35px;
+    font-size: 17px;
+    color: #fff;
+    line-height: 30px;
+    transition: all 0.5s ease 0s;
+   }
+   
+   .our-team .social li a:hover{
+    background: #bc3fbf;
+   }
+   
+   .our-team .team-info{
+    padding: 20px;
+   }
+   
+   .our-team .title{
+    font-size: 18px;
+    color: #beb4f3;
+    letter-spacing: 4px;
+    margin: 0 0 15px 0;
+    transition: all 0.5s ease 0s;
+   }
+   
+   .our-team .post{
+    display: block;
+    font-size: 14px;
+    color: #c9bfff;
+   }
+   
+   .our-team .title:hover,
+   .our-team .post:hover{
+    color: #bc3fbf;
+   }
+   
+   @media only screen and (max-width: 990px){
+    .our-team{ margin-bottom: 30px; }
+   }
+   
+   @media only screen and (max-width: 767px){
+    .our-team .social{ left: -20px; }
+   }
+   
+   @media only screen and (max-width: 480px){
+    .our-team .social{ left: -20px; }
+   }

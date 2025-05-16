@@ -1,0 +1,39 @@
+.bg-body-tertiary{
+    background-color: lightcoral;
+}
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 1050px;
+}
+.modal-content{
+width: 1000px;
+}
+.gif-cat{
+    background-image: url("../img/1.gif");
+}
+.display-4 {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 500px;
+    padding: 5px 10px;
+    background-color: white;
+}
+.lead {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 500px;
+    padding: 5px 10px;
+    background-color: white;
+}
+.btn {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 500px;
+    padding: 5px 10px;
+    background-color: white;
+}
+.btn-primary {
+    background-color: black;
+}
+.btn-secondary {
+    background-color: black;
+}
